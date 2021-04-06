@@ -285,6 +285,7 @@ class AppComponent {
         document.getElementById("playButton").disabled = disabilityState;
         document.getElementById("recordButton").disabled = disabilityState;
         document.getElementById("stopButton").disabled = disabilityState;
+        document.getElementById("playRecordButton").disabled = disabilityState;
         if (disabilityState) {
             document.getElementById("playButton").style.opacity = "50%";
             document.getElementById("recordButton").style.opacity = "50%";
